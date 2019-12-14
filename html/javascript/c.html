@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Cognizant</title>
+    </head>
+    <body>
+        <h2> Personal details</h2>
+        <form name="myform" onsubmit="return validate()">
+        <table>
+        <tr><td><label for = "name1">Name </label></td><td><input type = "text" name = "name1" id = "ctrl" ></td></tr>
+        <tr><td>Gender </td><td><label for="male">Male</label><input type="radio" name="gender" value="male" id = "male"> 
+                <label for="female">Female</label><input type="radio" name="gender" value="female" id = "female"></td></tr>
+        <tr><td>Home Town </td><td><select name = "town">
+                <option value = "New Delhi"> New Delhi</option>
+                <option value = "Mumbai"> Mumbai</option>
+                <option value = "Kolkata"> Kolkata</option>
+                <option value = "Chennai"> Chennai</option>
+                <option value = "Hyderabad"> Hyderabad</option>
+                </select></td></tr>
+        <tr> <td>Address</td><td> <textarea rows = "4" cols = "20"> </textarea></td></tr>
+        <tr><td>Skills </td><td><label for ="java">Java</label><input type="checkbox" name="java" value="java"id = "java"><label for ="html" > HTML</label>
+                    <input type="checkbox" name="html" value="html" id = "html"><label for = "oracle">Oracle</label>
+                    <input type="checkbox" name="oracle" value="oracle" id = "oracle"></td></tr> 
+        <tr><td>Password</td><td> <input type = "password" name = "pass" id = "pass"></td></tr>
+        <tr><td></td><td><input type = "Submit" ></td></td></tr>
+        </table>            
+    
+        </form>
+	<script src = "akash.js"></script> 
+</body>
+
+</html>

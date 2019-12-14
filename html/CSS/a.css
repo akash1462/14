@@ -1,0 +1,65 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+  border:3px solid;
+  border-top-color:green;
+  border-bottom-color:yellow;
+  border-left-color:black;
+  border-right-color:blue;
+  padding: 30px;
+}
+
+#t1 {
+	color : green;
+}
+
+image {
+   border : 12px dashed red;
+   height:100px;
+   width:150px;
+}
+
+table{
+   border-collapse:collapse;
+   width:400px;
+   border-spacing:10px 50px;
+
+}
+
+td{
+   border-style:solid; 
+   border-width:3px; 
+   border-color: ; 
+   padding: 10px;
+}
+
+caption {
+   caption-side:top;
+}
+
+.b1 {
+  border: teal;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.b1:hover {
+  background-color: yellow;
+  color: white;
+}
+
+#cursor1{
+  cursor:wait;
+}

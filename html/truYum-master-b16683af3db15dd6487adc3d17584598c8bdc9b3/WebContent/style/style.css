@@ -1,0 +1,105 @@
+/* Add styles for truYum application here */
+img{
+	height:40px; width:40px;
+}
+
+header{
+	height:30px;
+	background-color:#000080;
+	width:auto;
+	color: #FFFFFF;
+	font-size: 30px;
+	padding: 20px;
+	font-family: calibri;
+}
+
+footer{
+	height:10px;
+	background-color:#D3D3D3;
+	width:98%;
+	color: #FFFFFF;
+	font-size: 16px;
+	padding: 20px;
+	font-family: serif;
+	position:fixed;
+	bottom:0;
+}
+
+h2{
+	margin:40px;
+	font-family: calibri;
+}
+
+table,td,th{
+	margin: 40px;
+	text-align:center;
+}
+
+.nameleft{
+	text-align:left;
+	width:25%;
+}
+
+.priceright{
+	text-align:right;
+	width:20%;
+}
+
+.alignright {
+	float: right;
+	color:#FFFFFF;
+	margin-right:50px;
+}
+
+a.a1:visited{
+	color:#FFFFFF;
+	margin-right:100px;
+}
+
+form{
+	margin: 40px;
+}
+
+.editmenu td{
+	text-align : left;
+}
+
+.editmenu {
+	margin:0px;
+}
+
+#itemname{
+	width: 39%;
+}
+
+#save {
+  background-color: #000080; 
+  border: none;
+  color: #FFFFFF;
+  padding: 13px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+p {
+	color: #008000;
+	margin:40px;
+}
+
+.free {
+	text-align:left;
+}
+
+.abc {
+	color:#D3D3D3;
+}
+
+a.a2:visited{
+	color:#000080;
+}
+
+body{
+	overflow:hidden;
+}

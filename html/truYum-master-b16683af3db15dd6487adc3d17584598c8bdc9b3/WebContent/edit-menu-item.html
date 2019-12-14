@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>edit menu</title>
+	<link rel = "stylesheet" type = "text/css" href = "style\style.css">
+</head>
+<body>
+<header> truYum &nbsp;&nbsp;<span><img src="images\truyum-logo-light.png"></span><span class = "alignright"><a href = "menu-item-list-admin.html" class="a1">Menu</a></span></header>
+<h2> Edit Menu Item</h2>
+<form name = "myform" onsubmit="return validate()" action="edit-menu-item-status.html">
+	
+	<label for="itemname">Name</label><br>
+	<input type = "text" name="itemname" id="itemname"><br><br>
+	
+	<table class = "editmenu">
+		<tr align = "left"><td><label for="price">Price </label>(Rs.)</td><td> Active </td><td> <label for ="date"> Date of Launch</label></td> <td><label for="selector"> Category </label></td></tr>
+		
+		<tr><td><input type="number" name = "price" id="price"></td><td><input type = "radio" name ="active" id="active" checked> Yes <input type = "radio" name = "active" id = "active"> No </td><td> <input type = "date" id="date" ></td>
+			<td> 
+				<select id="selector">
+					<option> Starters</option>
+					<option> Main Course</option>
+					<option> Dessert</option>
+					<option> Drinks</option> 
+				 </select>
+				 </td></tr>
+				 
+	</table><br>
+	<input type = "checkbox" id = "checkboxx"checked> <label for="checkboxx">Free Delivery</label> <br><br>
+	
+	<input type = "submit" value= "Save" name = "save" id = "save">
+</form>
+
+<footer> Copyright &copy; 2019</footer>
+
+<script src= "js\script.js"></script>
+
+</body>
+</html>

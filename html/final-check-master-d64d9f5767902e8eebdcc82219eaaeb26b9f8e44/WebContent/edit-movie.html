@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>edit movie</title>
+<link rel="stylesheet" type="text/css" href="style\style.css">
+</head>
+<body>
+	<header>
+		Movie Cruiser &nbsp;&nbsp;<span><img src="images\logo.png"></span><span
+			class="alignright"><a href="movie-list-admin.html" class="a1">Movies</a></span>
+	</header>
+	<h2>Edit Movie</h2>
+	<form name="myform" onsubmit="return validate()"
+		action="edit-movie-status.html">
+
+		<label for="field-title">Title</label><br> <input type="text"
+			name="title" id="field-title"><br>
+		<br>
+
+		<table class="editmenu">
+			<tr align="left">
+				<td><label for="field-boxOffice">Gross ($) </label></td>
+				<td>Active</td>
+				<td><label for="field-dateOfLaunch"> Date of Launch</label></td>
+				<td><label for="field-selector"> Genre </label></td>
+			</tr>
+
+			<tr>
+				<td><input type="number" name="boxOffice" id="field-boxOffice"></td>
+				<td><input type="radio" name="active" id="field-active" checked>
+					Yes <input type="radio" name="active" id="field-active"> No</td>
+				<td><input type="field-dateOfLaunch" id="field-dateOfLaunch"></td>
+				<td><select id="field-genre">
+						<option></option>
+						<option>Science Fiction</option>
+						<option>Superhero</option>
+						<option>Romance</option>
+						<option>Comedy</option>
+						<option>Adventure</option>
+						<option>Thriller</option>
+				</select></td>
+			</tr>
+
+		</table>
+		<br> <input type="checkbox" id="field-hasTeaser" checked> <label
+			for="field-hasTeaser">Has Teaser</label> <br>
+		<br> <input type="submit" value="Save" name="save" id="submit">
+	</form>
+
+	<footer> Copyright &copy; 2019</footer>
+
+	<script src="js\script.js"></script>
+
+</body>
+</html>

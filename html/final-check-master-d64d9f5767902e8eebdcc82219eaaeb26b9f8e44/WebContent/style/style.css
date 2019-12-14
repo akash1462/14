@@ -1,0 +1,116 @@
+/* Add styles for truYum application here */
+img {
+	height: 40px;
+	width: 40px;
+}
+
+header {
+	height: 30px;
+	background-color: #000080;
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 30px;
+	padding: 20px;
+	font-family: calibri;
+
+	/*position:fixed;
+	left:0;
+	top:0;
+	*/
+}
+
+footer {
+	height: 10px;
+	background-color: #D3D3D3;
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 16px;
+	padding: 20px;
+	font-family: serif;
+	position: fixed;
+	bottom: 0;
+	/*left:0;*/
+}
+
+h2 {
+	margin: 40px;
+	font-family: calibri;
+}
+
+table, td, th {
+	margin: 40px;
+	text-align: center;
+}
+
+.nameleft {
+	text-align: left;
+	width: 25%;
+}
+
+.genre {
+	text-align: right;
+	width: 20%;
+}
+
+.alignright {
+	float: right;
+	color: #FFFFFF;
+	margin-right: 70px;
+}
+
+a.customer-list:visited {
+	color: #FFFFFF;
+	margin-right: 150px;
+}
+
+form {
+	margin: 40px;
+}
+
+.editmenu td {
+	text-align: left;
+}
+
+.editmenu {
+	margin: 0px;
+}
+
+#title {
+	width: 39%;
+}
+
+#submit {
+	background-color: #000080;
+	border: none;
+	color: #FFFFFF;
+	padding: 13px 45px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+p {
+	color: #008000;
+	margin: 40px;
+}
+
+.box {
+	text-align: left;
+}
+
+.add-to-favorite {
+	color: #D3D3D3;
+}
+
+a.favorites-link:visited {
+	color: #000080;
+}
+
+body {
+	overflow: hidden;
+}
+
+p.numfav {
+	color: black;
+}

@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title> validation </title>
+</head>
+<body>
+	<form name="myform" onsubmit="return validate()" method="post" onsubmit = "return display()">
+
+	name : <input type ="text" name = "name" id= "ctrl"><br><br>
+
+	password :<input type = "password" name = "pass" required><br>
+
+	<input type = "Submit" value="Submit" > 
+	</form>
+</body>
+
+<script>
+
+function validate()
+{
+    var regex = /^[a-zA-Z ]{2,30}$/;
+    
+    if (regex.test(ctrl.value)) {
+        return true;
+    }
+    else {
+	alert("wrong entries");
+        return false;
+
+    }
+}
+
+
+function display(){
+	var x=document.myform.name.value;
+	var y=document.myform.pass.value;
+	alert("NAME:"+x+"     "+"PASSWORD:"+y);
+}
+
+</script>
+
+</html>
